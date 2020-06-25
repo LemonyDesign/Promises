@@ -57,3 +57,12 @@ const chargeCC = async ccNumber => {
 // console.log then returns the awaited value
 
 console.log(chargeCC("3453463463"));
+
+// const withErrorHandler = fn => async (...args) => {
+//   try {
+//     return await fn(...args)
+//   } catch (error) {
+//     // log error
+//     throw error
+//   }
+// }
